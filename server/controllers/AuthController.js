@@ -22,8 +22,8 @@ export const signup = async (req,res,next)=>{
 
         const options={
             maxAge,
-            secure:true,
-            sameSite:"None",
+            // secure:true,
+            // sameSite:"None",
         }
 
         res.cookie("jwt",token(email,user.id),options);
@@ -67,8 +67,8 @@ export const login = async (req,res,next)=>{
 
         const options={
             maxAge,
-            secure:true,
-            sameSite:"None",
+            // secure:true,
+            // sameSite:"None",
         }
 
         res.cookie("jwt",token(email,user.id),options);
