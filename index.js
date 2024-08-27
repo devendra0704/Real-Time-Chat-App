@@ -33,7 +33,7 @@ app.use(cors({
 
 
 // Serve static files from the React frontend app
-const buildPath = path.join(__dirname, '../client/dist');
+const buildPath = path.join(__dirname, '/client/dist');
 app.use(express.static(buildPath));
 
 
@@ -50,6 +50,8 @@ app.use('/api/auth',router);
 app.use('/api/contacts',contactsRoutes);
 app.use('/api/messages',messagesRouter);
 app.use('/api/channel',channelRoutes);
+
+// console.log(path.join(buildPath, 'index.html'));
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(buildPath, 'index.html'));
