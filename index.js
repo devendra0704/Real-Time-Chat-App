@@ -25,7 +25,7 @@ const app=express();
 const port=process.env.PORT;
 
 app.use(cors({
-    origin:[process.env.ORIGIN],
+    origin:'https://real-time-chat-app-qafy.onrender.com',
     methods:["GET","POST","PUT","PATCH","DELETE"],
     credentials:true,
 }))
