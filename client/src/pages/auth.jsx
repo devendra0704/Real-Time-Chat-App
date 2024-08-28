@@ -45,17 +45,34 @@ const Auth = () => {
   }
 
   const handleLogin =async()=>{
-    if(validateLogin()){
-      const res= await apiClient.post(LOGIN_ROUTE,{email,password},{withCredentials:true})
-
-      if(res.data.user.id){
-        setUserInfo(res.data.user); 
-        if(res.data.user.profileSetup){
-          navigate("/chat");
+    try {
+      if(validateLogin()){
+        const res= await apiClient.post(LOGIN_ROUTE,{email,password},{withCredentials:true})
+  
+        if(res.data.user.id){
+          setUserInfo(res.data.user); 
+          if(res.data.user.profileSetup){
+            navigate("/chat");
+          }
+          else{
+            navigate("/profile");
+          }
+        }
+      }  
+    } catch (error) {
+      if(!error.response.data.success){
+        if(error.response.data.message==="User not found"){
+          toast.error("User not found");
+        }
+        else if(error.response.data.message==="Password is incorrect"){
+          toast.error("Password is incorrect");
         }
         else{
-          navigate("/profile");
+          console.error({error});
         }
+      }
+      else{
+        console.error({error});
       }
     }
   }
@@ -64,7 +81,7 @@ const Auth = () => {
     if(validateSignup()){
       const res =await apiClient.post(SIGNUP_ROUTE,{email,password},{withCredentials:true});
 
-      if(res.status==201){
+      if(res.status===201){
         setUserInfo(res.data.user);
         navigate("/profile");
       }
