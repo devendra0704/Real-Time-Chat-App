@@ -31,8 +31,7 @@ app.use(cors({
 }))
 
 
-
-// Serve static files from the React frontend app
+// Serve static files from the React frontend ap
 const buildPath = path.join(__dirname, '/client/dist');
 app.use(express.static(buildPath));
 
