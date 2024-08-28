@@ -10,13 +10,13 @@ import setupSocket from './socket.js'
 import messagesRouter from './routes/MessagesRoutes.js'
 import channelRoutes from './routes/ChannelRoutes.js'
 
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-import path from 'path';
+// import { fileURLToPath } from 'url';
+// import { dirname } from 'path';
+// import path from 'path';
 
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = dirname(__filename);
 
 
 
@@ -33,8 +33,8 @@ app.use(cors({
 
 // Serve static files from the React frontend app
 
-const buildPath = path.join(__dirname, '../client/dist');
-app.use(express.static(buildPath));
+// const buildPath = path.join(__dirname, '../client/dist');
+// app.use(express.static(buildPath));
 
 
 
