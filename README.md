@@ -3,6 +3,10 @@
 ## Description
 Developed a web-based and responsive real-time chat application for both laptops and mobile devices. The application allows users to engage in one-to-one and group chats. To enhance user interaction, file sharing features have been integrated.
 
+## Website
+
+Check out the live application at: [Your Website Link](http://example.com)
+
 ## Techstack Used
 
 - **React.js**: A JavaScript library for building user interfaces.
