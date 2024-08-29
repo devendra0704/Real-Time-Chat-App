@@ -1,8 +1,8 @@
-# Project Name
-Real-Time-Chat-Application
+#Real-Time-Chat-Application
+
 
 ## Description
-A brief description of what the project is about.
+Developed a web-based real time chat application that allows user to one-to-one and group-chats
 
 ## Installation
 Instructions for how to install and run the project.
