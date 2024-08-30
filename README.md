@@ -39,11 +39,11 @@ Check out the live application at: [https://real-time-chat-app-v1.netlify.app/](
 ![Screenshot 2024-08-29 145318](https://github.com/user-attachments/assets/bf5bb65a-4086-40ad-bf9d-0e8e04f7305f)
 
 
+![Screenshot 2024-08-29 145528](https://github.com/user-attachments/assets/b0e1138e-3a4a-4d05-a0d8-1fed43704377)
 ![Screenshot 2024-08-29 150536](https://github.com/user-attachments/assets/7006862b-7d5b-437d-8ce0-328ba9a9b23f)
 ![Screenshot 2024-08-29 150936](https://github.com/user-attachments/assets/c8206b09-be0d-43ef-a770-9922cc9e3e9a)
 ![Screenshot 2024-08-29 151334](https://github.com/user-attachments/assets/e772a3fe-9454-47c7-a4ac-3513e5d32f46)
 ![Screenshot 2024-08-29 151458](https://github.com/user-attachments/assets/3332d7eb-94a7-4475-b2f0-9caa8dd73a2c)
-![Screenshot 2024-08-29 145528](https://github.com/user-attachments/assets/b0e1138e-3a4a-4d05-a0d8-1fed43704377)
 
 
 ## Acknowledgements
