@@ -25,7 +25,7 @@ Check out the live application at: [https://real-time-chat-app-v1.netlify.app/](
 - **Responsive Design:** A fully responsive UI built with Tailwind CSS and Shadcn/UI.
 - **Emoji Support:** Integrated emoji picker using `emoji-picker-react`.
 - **File Sharing:** Send and receive files during chats.
-- **Authentication:** Secure user authentication with JWT.
+- **Authentication and Authorization:** Secure user authentication and Authorization with JWT.
 - **State Management:** Efficient state handling with Zustand.
 - **MongoDB Schemas:** Optimized data handling using MongoDB schemas.
 
