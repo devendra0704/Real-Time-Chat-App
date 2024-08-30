@@ -31,7 +31,20 @@ Check out the live application at: [https://real-time-chat-app-v1.netlify.app/](
 
 ## Screenshots
 
-*Include some screenshots of your application.*
+![Screenshot 2024-08-29 145000](https://github.com/user-attachments/assets/19e1d8c3-55c2-4a95-a8cd-ace8095cc5db)
+![Screenshot 2024-08-29 145141](https://github.com/user-attachments/assets/16ea5631-5cf4-488b-83bb-cde0155a3604)
+![Screenshot 2024-08-29 145205](https://github.com/user-attachments/assets/00010d2f-24e4-41c1-a641-8875da3f65f1)
+![Screenshot 2024-08-29 145229](https://github.com/user-attachments/assets/14ac9ea4-a405-488e-84b7-482cb3af0f6d)
+![Screenshot 2024-08-29 145250](https://github.com/user-attachments/assets/6da60f84-7728-4aba-9574-954a9a300bf9)
+![Screenshot 2024-08-29 145318](https://github.com/user-attachments/assets/bf5bb65a-4086-40ad-bf9d-0e8e04f7305f)
+
+
+![Screenshot 2024-08-29 150536](https://github.com/user-attachments/assets/7006862b-7d5b-437d-8ce0-328ba9a9b23f)
+![Screenshot 2024-08-29 150936](https://github.com/user-attachments/assets/c8206b09-be0d-43ef-a770-9922cc9e3e9a)
+![Screenshot 2024-08-29 151334](https://github.com/user-attachments/assets/e772a3fe-9454-47c7-a4ac-3513e5d32f46)
+![Screenshot 2024-08-29 151458](https://github.com/user-attachments/assets/3332d7eb-94a7-4475-b2f0-9caa8dd73a2c)
+![Screenshot 2024-08-29 145528](https://github.com/user-attachments/assets/b0e1138e-3a4a-4d05-a0d8-1fed43704377)
+
 
 ## Acknowledgements
 
