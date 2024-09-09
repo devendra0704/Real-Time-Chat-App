@@ -5,7 +5,7 @@ Developed a web-based and responsive real-time chat application for both laptops
 
 ## Website
 
-Check out the live application at: [https://real-time-chat-app-v1.netlify.app/]()
+Check out the live application at: [https://real-time-chat-app-v1.netlify.app/](https://real-time-chat-app-v1.netlify.app/)
 
 ## Techstack Used
 
